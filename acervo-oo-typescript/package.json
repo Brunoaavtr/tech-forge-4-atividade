@@ -1,0 +1,16 @@
+{
+  "name": "acervo-oo-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicação de console para gerenciamento de acervo com orientação a objetos em TypeScript",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
